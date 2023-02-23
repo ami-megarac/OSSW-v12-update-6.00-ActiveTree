@@ -5,7 +5,7 @@ Format: 3.0 (quilt)
 Source: curl
 Binary: curl, libcurl4, libcurl3-gnutls, libcurl3-nss, libcurl4-openssl-dev, libcurl4-gnutls-dev, libcurl4-nss-dev, libcurl4-doc
 Architecture: any all
-Version: 7.64.0-4+deb10u3
+Version: 7.64.0-4+deb10u4
 Maintainer: Alessandro Ghedini <ghedo@debian.org>
 Uploaders: Ian Jackson <ijackson@chiark.greenend.org.uk>
 Homepage: http://curl.haxx.se
@@ -25,30 +25,27 @@ Package-List:
  libcurl4-openssl-dev deb libdevel optional arch=any
 Checksums-Sha1:
  5911d4400e988ae52368f2266a5f84378983dbde 4032645 curl_7.64.0.orig.tar.gz
- fe36e6dd5f1f0f463dee94fc0ae38755ad823d9d 54192 curl_7.64.0-4+deb10u3.debian.tar.xz
+ 91cbf9870fe086bbb8057ae3e2342fc6462913bf 59080 curl_7.64.0-4+deb10u4.debian.tar.xz
 Checksums-Sha256:
  cb90d2eb74d4e358c1ed1489f8e3af96b50ea4374ad71f143fa4595e998d81b5 4032645 curl_7.64.0.orig.tar.gz
- e102815f3a4901e4e5c884a419bbecc35e45bfbddd9741a61106d187677680e6 54192 curl_7.64.0-4+deb10u3.debian.tar.xz
+ a6a0f1c45359fa262ae1612e9d3d3e185c88b4d87473e44557bcc0441a72f10c 59080 curl_7.64.0-4+deb10u4.debian.tar.xz
 Files:
  a026740d599a32bcbbe6e70679397899 4032645 curl_7.64.0.orig.tar.gz
- 5610795e665aaf254f7704f3d97df436 54192 curl_7.64.0-4+deb10u3.debian.tar.xz
+ f339698607d0ba7a918fdf2c00375338 59080 curl_7.64.0-4+deb10u4.debian.tar.xz
 
 -----BEGIN PGP SIGNATURE-----
 
-iQKjBAEBCgCNFiEErPPQiO8y7e9qGoNf2a0UuVE7UeQFAmML0DBfFIAAAAAALgAo
-aXNzdWVyLWZwckBub3RhdGlvbnMub3BlbnBncC5maWZ0aGhvcnNlbWFuLm5ldEFD
-RjNEMDg4RUYzMkVERUY2QTFBODM1RkQ5QUQxNEI5NTEzQjUxRTQPHGFwb0BkZWJp
-YW4ub3JnAAoJENmtFLlRO1HkLbwQAM/K8dqvUQfxFCfjM2jRP5iYxbKzBiAUG9/F
-43yw/L8pKllRWvV5iGn278GtMt4c1z5MUYJtT/kbDLTgVc/fcjgLU/AZP11ThvVX
-zOifroRPIr/0e5A3JW+PL021wHPtUfbz7SGv8gRHIEq5ZkuZjl70XFhiGdWGoTFd
-27h8BLWO7wr9G/L4QrdNUwFKSc6CIKh00VP2swiFv8mO/XrOClnYQ2egIrijbzYg
-eJvpIZr+jcCBKmKpqDYWlKA+mWVruZ4BKFbFwTf9tGLEssCwxGjq3tb0ceBpccD7
-bp6ip0YuAOhPRuZfRHfi17joH6EiktlgcIXRtT0P6/KJXyq+KWH0B/DBIaiCz7Qx
-3kEieb1B/bXq9avo5y3kO2ZVpxbnYdILs0AgBOt5bBlGr4jmbmHc9nzHHMa20J35
-QYy5JbDWD8cL2AZHyr3aRe5Ejz7GTHp1ixtSMlmYVMcr+6aSxRyccTN1UWEwOPyr
-rbk3wSUDFaaEz5u3CHDBmAMKImqtPzjVlWDlocXtAXKL5aXcX1KG6fT2f1IXOerd
-hOVSCm9+14rmlBiGKpQHjDjhS2AH3Mifkh8m2Ovhck64jdLzXhRp+DPR5nLQoDXv
-VSDRU1/Sw3dUefCIpNBbd38sRHjwYH0gLLzSRrdEuf9UfZs0eey1YtmIdKvJZ8GF
-trQXXfzx
-=qPYc
+iQIzBAEBCgAdFiEEIYZ1DR4ae5UL01q7ldFmTdL1kUIFAmPVhGYACgkQldFmTdL1
+kUIY7g/5AZeogFQ++iV3oA2B4gioKvWSHJzbnZhkUxsoWQ/b/588NnpxiWKfxTox
+VeXNvGh2jXVlz2zIJXuk/n03Xf6MV4XF2utFf+qB01KuR6ufjyBgkib7I5dTZsOR
+zSD2fV5SCOx6jMhIprfurhiEqso/eQmS6MJADeb0ie0jva7EluVLm0MXqTnwPSxV
+KHhz3zIMjQX2CQOh2UZHS0sBCP/n/ft5HdAFULFVjPf5SBW23Wn4ItQqacLR/e2N
+CRk2zbvNPVyXeI7frhMEc5oj+rqvnhrb5CKmy6KQNh8OKu3KnHqdUn49SCdhVuNy
+T2EJmnq0PHU4mTSnmbNZuaL0UlYAA3B5KHHQ/4WMRceg3yQrivocKBj9f/8U1S1X
+me9QEZ1vj2m+YMhaZ3yLD6eqy8MoYl027Fd7g7gayk4DOeTHonSNfpWOduC+QRKo
+g4UBbVMQ1LrpHyhpqtI9amlB6OaK0vs/yvymcRZcvXMuu+v5ij90/PCWJtS6cWmd
+QlTO65asKxVWSIcId3/xlN+CL1A5JpmKko9LDrBbitO6TkZhE3v3pt0eziVKpGhO
+I2olNrZuVtIK4tX00gUWyh4JGQk5d/axvuZFd5V0Kj8BxsOOLucFB8SWgg6QIaar
+emH9wwb6sjUkJbEVg7SXMedQTS8B/sSGXjdXFas4acjfO/p6iyA=
+=WFcb
 -----END PGP SIGNATURE-----

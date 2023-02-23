@@ -5,7 +5,7 @@ Format: 3.0 (quilt)
 Source: net-snmp
 Binary: snmpd, snmptrapd, snmp, libsnmp-base, libsnmp30, libsnmp30-dbg, libsnmp-dev, libsnmp-perl, python-netsnmp, tkmib
 Architecture: any all
-Version: 5.7.3+dfsg-5+deb10u3
+Version: 5.7.3+dfsg-5+deb10u4
 Maintainer: Net-SNMP Packaging Team <pkg-net-snmp-devel@lists.alioth.debian.org>
 Uploaders: Craig Small <csmall@debian.org>, Thomas Anders <tanders@users.sourceforge.net>, Noah Meyerhans <noahm@debian.org>
 Homepage: http://net-snmp.sourceforge.net/
@@ -27,30 +27,27 @@ Package-List:
  tkmib deb net optional arch=all
 Checksums-Sha1:
  ebbbc5e9fc5006edd3e62d595366497592d964a2 3371224 net-snmp_5.7.3+dfsg.orig.tar.xz
- 0e5a1e7f32dd7a24a6951273c0e3d0404839aea1 85240 net-snmp_5.7.3+dfsg-5+deb10u3.debian.tar.xz
+ 835174da528331bd050d365cfbbfd4dec83d7d22 86536 net-snmp_5.7.3+dfsg-5+deb10u4.debian.tar.xz
 Checksums-Sha256:
  073eb05b926a9d23a2eba3270c4e52dd94c0aa27e8b7cf7f1a4e59a4d3da3fb5 3371224 net-snmp_5.7.3+dfsg.orig.tar.xz
- 12dfbe8fc0941c637a0524e9d4677d57b17cb9d721cb4d0c8d4706896709a33d 85240 net-snmp_5.7.3+dfsg-5+deb10u3.debian.tar.xz
+ b99894218523936004d0f0e13418e5d90a4dfefd6eee6bdcbd5943f6a11042bc 86536 net-snmp_5.7.3+dfsg-5+deb10u4.debian.tar.xz
 Files:
  6391ae27eb1ae34ff5530712bb1c4209 3371224 net-snmp_5.7.3+dfsg.orig.tar.xz
- c15cfe4e2d5005fac462f3c499fb0f50 85240 net-snmp_5.7.3+dfsg-5+deb10u3.debian.tar.xz
+ 856d7b12176415e37cdb414aeaac9901 86536 net-snmp_5.7.3+dfsg-5+deb10u4.debian.tar.xz
 
 -----BEGIN PGP SIGNATURE-----
 
-iQKnBAEBCgCRFiEEYgH7/9u94Hgi6ruWlvysDTh7WEcFAmMOEfdfFIAAAAAALgAo
-aXNzdWVyLWZwckBub3RhdGlvbnMub3BlbnBncC5maWZ0aGhvcnNlbWFuLm5ldDYy
-MDFGQkZGREJCREUwNzgyMkVBQkI5Njk2RkNBQzBEMzg3QjU4NDcTHGRlYmlhbkBh
-bHRlaG9sei5kZQAKCRCW/KwNOHtYR0MhD/9cQ3I35DO11qFG4YYmxZtJgQKdKAH9
-J/fGE5REhMhGjJ2+vKEJdLvwok1OHfZT4O2gZFugM6LdcPQhlyY2QFqzp1OTevFt
-llsCLVQOKgs4Sd2ffJZPraJF5IINrFKHVDXjeeZcPFlS86m0JtQFYlKDnrZ4lSg/
-sK1pT/e/7eHM0Kgu0Bq3cvdTq5b6npLd6BXIbAPlmVdOmRDuX/mNyDKPq8qmLT5l
-fickfyGPClNm7Eou4j0tkMoMOwR+vcoH8/dJEgLKZLNtzkRSRX+t+xUsaSQN/fc5
-KkrHIiBNxMSHRBoxnDr11dC1hWj1hJvWWyo9ZsxOYJyqmN58KjHZwrKisfB4W9tZ
-+pA6QzqViHK6v3+NejxS8f6nAHRXuZKvfuogqdX1M+ccmM5RdHsXUkKuv0FCAtyN
-rDklxSk2m/QKhMzHOJTVNPaLA6D2mc+uEM+qvS3gTi0k9Kl+Lytp9JMwDOMYqS/k
-Eog7H9bog3GLTf/WUGDTvuVWgs9ZJfxstdpsuPFG/30rIYOefOiSZb70o2lwFkB7
-9bvgh+THFMrA8Wyu5sDx05/xWE0JmXy4Zx3NVecgiyZtjOgaUJ4TernEyJ4ikEzg
-6CaH1ppLpA4zH4PF+8QdWF93PTZj246bGAkq5TtMOY9ZNnAksizNWYsaVdR4lZC0
-oM7+5UrXi/ngnQ==
-=4nAW
+iQIzBAEBCgAdFiEERpy6p3b9sfzUdbME05pJnDwhpVIFAmPDWBgACgkQ05pJnDwh
+pVKNpQ/8CxONaOtKQhp4QlZHyoJ8mxmuuSijA1GW71+IfwZkSZNJEb3E9tbRrjav
+xn44X6GVryZsG5BAcql+DUYps8ginfvmZBBwX/VCN4R1xPMRea+zIUR94ZjXmaiF
+PhdT/eoSQNwE8k7vP7Oukani5ky5g0DGjcTdC25qVFYfqk3MVNMYj1Sk/cKH4UMK
+cJVmOhZiXlfmr+SGsUOhmpNZksW0CZLxVSk3pgetRacPb4RCCg/mJQx6zopMg97n
+n3HKrFv+UFlSzkDjXy9Yq96EqL5Xct0EMw7gtwkdMa8a3QUDKdNfaGZK+/shI6PS
+uQk5ILNUlYvPjGBCsTbTQ192ceaPu4fJqps5TqFMwKq7g0jeQYI7/bzJCJj7q/jl
+XoMqlC06f8kT6yDypIm9z+CvI36hoWes4VbWj05MXtDZ68HqmzLxLNPHcXdZBg/c
+nrOMDim18wct/9cOH6rOKISR5oqouh3JOloycaPWCkof1u+XB9WHQjl2Zop56tpK
+kLOGMh3LWIzbFVo8eyL3MVUe1ct5I4voDcnjPk1EdICgcZqwX2no7JI8LPcEJqzW
+cHQHcWWZoG/P7ZWl7pwRR6+dPkd6K10LEV96/BuPYCBAh6gXVCJN2/aI0bSuhkV2
+J/Eg+ZC2Nb1+heKPcTeohhTEdSBPKZ04g85w5IOkkqBi8uePkFI=
+=TGXe
 -----END PGP SIGNATURE-----

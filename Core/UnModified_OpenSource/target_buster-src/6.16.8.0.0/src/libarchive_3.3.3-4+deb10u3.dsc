@@ -5,7 +5,7 @@ Format: 3.0 (quilt)
 Source: libarchive
 Binary: libarchive-dev, libarchive13, libarchive-tools, bsdtar, bsdcpio
 Architecture: any all
-Version: 3.3.3-4+deb10u2
+Version: 3.3.3-4+deb10u3
 Maintainer: Peter Pentchev <roam@debian.org>
 Homepage: https://www.libarchive.org/
 Standards-Version: 4.3.0
@@ -22,27 +22,30 @@ Package-List:
  libarchive13 deb libs optional arch=any
 Checksums-Sha1:
  499a8f48a895faff4151d7398b24070d578f0b2e 6535598 libarchive_3.3.3.orig.tar.gz
- 0678fc50d64a95e644b320e38c7446b738d369a3 24592 libarchive_3.3.3-4+deb10u2.debian.tar.xz
+ 50776a493efb2bc35e18e1a649fedc4a2ab63cbc 24948 libarchive_3.3.3-4+deb10u3.debian.tar.xz
 Checksums-Sha256:
  ba7eb1781c9fbbae178c4c6bad1c6eb08edab9a1496c64833d1715d022b30e2e 6535598 libarchive_3.3.3.orig.tar.gz
- 895a83cc3c6de67969e1063ee3f51b3337a7dd128cedbb34e7132ea56c5431ae 24592 libarchive_3.3.3-4+deb10u2.debian.tar.xz
+ 9a6217ca0d0bc489a8f6f0cbb7465c5d3bb1b54410e82922cfd3423d1082da8f 24948 libarchive_3.3.3-4+deb10u3.debian.tar.xz
 Files:
  4038e366ca5b659dae3efcc744e72120 6535598 libarchive_3.3.3.orig.tar.gz
- 6673a3f079d96086145763e3a89d60bd 24592 libarchive_3.3.3-4+deb10u2.debian.tar.xz
+ c58e33c9eae457f587e826a9c6836b06 24948 libarchive_3.3.3-4+deb10u3.debian.tar.xz
 
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE1vEOfV7HXWKqBieIDTl9HeUlXjAFAmN83LMACgkQDTl9HeUl
-XjB/JhAAxAaBxFwKQzPlPRCJQ6LwRo5NjL+VdqMbbsUbvV/zhn6OwG1SYtn3FfsI
-eRUECn3xE8ZNH0cSUjZsaSUs97zpe/zRJRC6iM4BeNGYI7dzwarrC0Rxiu40p/j8
-Vb/6YihyDpKaF8pu05ZLrW3OowGaiBcEUx2CR0FMtylRGrhUX5EeyK8Kul27VO/g
-+A+3KpJ+5W2a+KTQEc7OW0u3AWHSi4MRvmXxUQSgWeobhZNKp9uPPeUWURMGlOQ4
-LxX7sZCZ34E4efxOu0PVGO4JD0CdCJ3dMwXgmToxkif+/0ibkpkVTo7AXD+1lMLB
-5+8oan7ZVKSdXqaS315TG83cp5C2qBK+7l9rpPHRW+EvBDiyX47isBdFS7DWlhln
-S5FAIFoi5VxuIJ83PnjIHIdvcXtJ0aNjfogcF22/yb7jIaHWWzX7/WYYh1DeFwAD
-DqgXV7p3aRFbJ0DFvqTUaIv0lH3qp3HnRC8dyjpcZyrgvMhayjnmrsWF/HoW+JVT
-ASSGXwS+TVhxPQrWtbMJn8Gxy1uKVFQ000NhqePWCaI3NCW6oIGeW1ILsCM85YMv
-r5dAsV7B4D2uwVtVhZbMK+zmkjZyIJ4jt+CY95UTdwvPy8ZukArJ/gLg5kPsBjJz
-FaD2EVFOyXOXrY2LhIbczgR32vKrb41JYAGtdDRy+uhT0SFxIE8=
-=hf3K
+iQKnBAEBCgCRFiEEYgH7/9u94Hgi6ruWlvysDTh7WEcFAmPYAuJfFIAAAAAALgAo
+aXNzdWVyLWZwckBub3RhdGlvbnMub3BlbnBncC5maWZ0aGhvcnNlbWFuLm5ldDYy
+MDFGQkZGREJCREUwNzgyMkVBQkI5Njk2RkNBQzBEMzg3QjU4NDcTHGRlYmlhbkBh
+bHRlaG9sei5kZQAKCRCW/KwNOHtYR/WuEACTm/vj4n1YuNqaHa47Pn4TV95j+HI1
+Ak4WWpERvNZZzAp69/uTn/ilh4AfrYGr8m/nt8DGn20ea1CW+mLrJLD1ml2JgoOe
+nqVieu90yvsLi3FAJ3OjNCixfLmqU5fYFDE/szKawpd3Iz+qoW0taKvZk9sWJb9F
+nfrdpZHTjdIfeQpP6SWFkl/7h8DiujEQ8wk+vrmyKxJG48w+V/oWwm1fJN+8hn+a
+4zZfgj0IJNycAy9Yf0K0PD9OXvt8h5EW9G2eitlJ9XkafpKOXcTgV7KV3N7d5QmF
+f8CRYIiZJqePMUbati7/YRRl0RyKNsAxlBH7knL4ilNBW/3tTU5m33zW9c/dLCiS
+dRqbeRaiK+5yFzoyF9HCciPnFU+G4Tlf1VGX4EoOqxdp1POiRqHUOwlriKrWgcnP
+BWDeagVTe/l0TjyBcbsQeHW7iuWod1b4EAJgOiffIyAvDPr2OMVhNImd/9/FGZsv
+kxhjYKTUUozvJkrFxQzNA4orfC/ozjkDCNrYdQgkDbu3R10BIr/i+8KYlvfzNss7
+YROv23AgCMOh1gIMF9uBCxH3pmLI+YHwWyu9wncXhI8bo2egmI7lrvB2m3m5zNLN
+H6whnMZJ1oFf9LSO5sm/KYwRxiFpomxtBMfOiYaEdcLeiPzY7nyqDp9FVWLaw0KT
+YXq8RFKn1QI3Kg==
+=Pxym
 -----END PGP SIGNATURE-----
