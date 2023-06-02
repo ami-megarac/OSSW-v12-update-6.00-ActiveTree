@@ -145,12 +145,12 @@
  
  	if (priv->is_aspeed)
  		ftgmac100_setup_clk(priv);
-@@ -1868,15 +1916,29 @@
+@@ -1934,20 +1934,32 @@
  	netdev->hw_features = NETIF_F_RXCSUM | NETIF_F_HW_CSUM |
  		NETIF_F_GRO | NETIF_F_SG | NETIF_F_HW_VLAN_CTAG_RX |
  		NETIF_F_HW_VLAN_CTAG_TX;
 -
-+#if 0 //Marked for ignore open source NCSI 
++#if 0 //Marked for ignore open source NCSI
  	if (priv->use_ncsi)
  		netdev->hw_features |= NETIF_F_HW_VLAN_CTAG_FILTER;
 -
@@ -158,7 +158,7 @@
  	/* AST2400  doesn't have working HW checksum generation */
  	if (np && (of_device_is_compatible(np, "aspeed,ast2400-mac")))
  		netdev->hw_features &= ~NETIF_F_HW_CSUM;
-+
+ 
 +	/* AST2500 doesn't have working HW checksum generation for IPV6
 +	*       * but it works for IPV4, so disabling hw checksum and enabling
 +	*               * it for only IPV4.
@@ -167,14 +167,17 @@
 +	{
 +		netdev->hw_features &= ~NETIF_F_HW_CSUM;
 +		netdev->hw_features |= NETIF_F_IP_CSUM;
-+	}           
-+
++	}
+ 	/* AST2600 tx checksum with NCSI is broken */
+ 	if (priv->use_ncsi && of_device_is_compatible(np, "aspeed,ast2600-mac"))
+ 		netdev->hw_features &= ~NETIF_F_HW_CSUM;
+ 
  	if (np && of_get_property(np, "no-hw-checksum", NULL))
 -		netdev->hw_features &= ~(NETIF_F_HW_CSUM | NETIF_F_RXCSUM);
 +		netdev->hw_features &= ~(NETIF_F_HW_CSUM |
-+				NETIF_F_RXCSUM
++					NETIF_F_RXCSUM
 +					| NETIF_F_IP_CSUM);
-+
++	
  	netdev->features |= netdev->hw_features;
  
  	/* register network device */
