@@ -1,5 +1,5 @@
---- lighttpd-1.4.45/src/connections.c	2017-01-14 00:05:17.000000000 -0500
-+++ lighttpd_new/src/connections.c	2021-11-09 05:01:39.272407192 -0500
+--- lighttpd-1.4.45/src/connections.c	2017-01-14 10:35:17.000000000 +0530
++++ lighttpd_new/src/connections.c	2023-07-31 18:58:00.690418959 +0530
 @@ -118,11 +118,14 @@
  	return 0;
  }
@@ -60,7 +60,7 @@
 +	buffer *csp = NULL;
 +	buffer *strict_transport_security = NULL;
 +
-+	if ( 200 != con->http_status ) {
++	if ((404 == con->http_status) || (403 == con->http_status) || (500 == con->http_status) || (501 == con->http_status)) {
 +		
 +		data_string *ds = (data_string *)array_get_element(con->response.headers, "X-Frame-Options");
 +		if (NULL != ds) {
