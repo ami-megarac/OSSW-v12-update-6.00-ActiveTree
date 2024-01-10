@@ -5,7 +5,7 @@ Format: 3.0 (quilt)
 Source: nghttp2
 Binary: libnghttp2-dev, libnghttp2-doc, libnghttp2-14, nghttp2-client, nghttp2-proxy, nghttp2-server, nghttp2
 Architecture: any all
-Version: 1.43.0-1
+Version: 1.43.0-1+deb11u1
 Maintainer: Tomasz Buchert <tomasz@debian.org>
 Uploaders: Ondřej Surý <ondrej@debian.org>
 Homepage: https://nghttp2.org/
@@ -26,28 +26,27 @@ Package-List:
  nghttp2-server deb httpd optional arch=any
 Checksums-Sha1:
  cf95821d4f5afe5b69911eb98fb1f4681c8c86d0 4521786 nghttp2_1.43.0.orig.tar.bz2
- 312f30a8d88482a8e32dec80acac9c6ef816904e 16308 nghttp2_1.43.0-1.debian.tar.xz
+ 4a07939c82b2e6893fe19c681b9a8f5b99105880 21832 nghttp2_1.43.0-1+deb11u1.debian.tar.xz
 Checksums-Sha256:
  556f24653397c71ebb8270b3c5e5507f0893e6eac2c6eeda6be2ecf6e1f50f62 4521786 nghttp2_1.43.0.orig.tar.bz2
- 5dbb013a6f2152354fee33a2ecf08817738d4f8f4d78bec0cd0cb3bcac690821 16308 nghttp2_1.43.0-1.debian.tar.xz
+ b391becc0718fdc415d2f966d577a864f996068e828ce803600d34b0bf03baf2 21832 nghttp2_1.43.0-1+deb11u1.debian.tar.xz
 Files:
  d7d7d01fd9c5d30c2960ae4349e6b6b7 4521786 nghttp2_1.43.0.orig.tar.bz2
- 0a06cade3ebede1c23c913eb06b5b112 16308 nghttp2_1.43.0-1.debian.tar.xz
+ 0161fdba3fd82d13ae21ae43e8b42513 21832 nghttp2_1.43.0-1+deb11u1.debian.tar.xz
 
 -----BEGIN PGP SIGNATURE-----
 
-iQJGBAEBCgAwFiEEzmRl4OZ9N8ZVV+eKAK40x+rZ6zgFAmAoElQSHHRvbWFzekBk
-ZWJpYW4ub3JnAAoJEACuNMfq2es43i8QAL+JdE/+OVOiFdJ3ZEbzi18qWqSd7Xjt
-txbIsPn2PL4fCeQPN+vHPc++hOKoQ2iq1aEWfu6xLrwUQKSbjyIGH/C3pgnPs7ki
-k32jD1YixtEm/av4IcrAJZZniw7UHuVf3NkRTEcTSk1+zkZMS+SM09YEoNAcYf6j
-JyRP09a6T00NIBqWBQ9uNZgFLn4bIHNu8YsFBip9sun9T7gjWaWgkWvXhc4W+Iwq
-t4iIBOE1AoH+yfbUbvElMvWuv9ZMVPYjFaFIOnzNO7RsyIXEVQgIULhyErA7iWNs
-pPLAGGBlj7uekEI+8l4WgrLugSHj9zsy0q8iCs9kGSWwOJSNSUPdLjBkOC/yTqX0
-p3mDH4AL4FGVeplHZo+qqLapThX+WCi78Zi6LsLpen/H/V/qcJe0Lu/d1eAIaAkE
-5D985T2EYHaaW1PCP04O+e+ANk3rBKcN6fjTmVqlWEbZRAmCGyewpXnmKwzXM2Od
-FCX3mB/UsAyJHMOZgvPT0wsWs/gME9XlBvrC9azMz7ZBq69Ng0Ca3N/LASs3c1Ku
-/zBoJLyd9rcLbdWWuXD4WOjjHxyYMcqZsLMUfGjTPToiRvSv5OMi3/PjpeX3qcb9
-9aD8/n9HpKWNnFXTOrhS+fbUZEbEuICKXN+UeERzazpyPHPUxrume2n1h6Vd17Sf
-0PrdfFQluR1F
-=PkD6
+iQIzBAEBCgAdFiEEtuYvPRKsOElcDakFEMKTtsN8TjYFAmVguKkACgkQEMKTtsN8
+TjY/mg/+M3xHKZ1ugCBmHOo+nHnWl9eodQQjAJt3zcexHd0yIG8g4yDaB0EQsx+3
+8Rshla/x1CqFCCwN9uEkXOfmRgPcxplven8JxPeoqFQx1kpG0lSh92IybPooq0h5
+sGAU8T5Y+Xge7qlJIC6EE2m4laQwoQZr0DsmR/x5n4Hf470iFUJEXwaUDfCm2FaY
+Z9zIHjKtAC9gWP+os7ahkYZJ0SWpsnX8S2xCW9lp6cIvDTmVpPkRFYrxH/w+moBx
+l5huOzXf4DOutuR2biyXZvlA3UT2NeEMyBu+9094lRoDZaDekzjWTrNlNaVzNlwJ
+TG49W865qA9wieG+aD4biR/Tfw4HVgHlngDHSAhz8tEYpu1E8/8s32bSulbmui3G
+jxTvkxQIgYw7+BxGm6SzAfKpvItxx+kd2ZU+M9BR3Y5yi5pE11DIGg1jQKqMQjy2
+cWfRJAbalXvEeLG6APuxjWznwMZe12L1zKhSUTQyu9FpHBmNC1cN4dxafuFnQyHA
+xESbXoz9m9A+Tjp2WOjIdoqcyxSJaSSjHWNKtjjmHUVVPHm9bP6LCUE1gXhg757j
+wQdSdDIoGk73jxGlhuQkz78smbh6i3fNAwVA5mORP/FaJa9jFygQpume5Os7MJWU
+HBtdZCsTjMOmkDeXbHX4vQhMLZdPgIfmYTW8FNzPQVkI0tjsEUs=
+=bIwE
 -----END PGP SIGNATURE-----
